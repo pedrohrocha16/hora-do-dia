@@ -1,0 +1,51 @@
+body {
+    align-content: center;
+    background: rgb(73, 224, 99);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font: normal 15pt arial;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    color: white;
+    text-align: center;
+}    
+section {
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.452);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+}
+#imagem {
+    border-radius: 150px;
+    margin-top: 1rem;
+    max-width: 225px;
+}
+#msg, #msg2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (min-width: 320px){
+    section {
+        max-width: 250px;
+    }
+}
+@media (min-width: 1024px){
+    section {
+        height: 320px;
+        justify-content: center;
+        max-width: 450px;
+    }
+}
