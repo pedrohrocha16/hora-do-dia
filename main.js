@@ -13,7 +13,7 @@ function carregar() {
         img.src = 'img/manha.jpg'
         body.style.background = '#315d81'
         msg2.innerHTML = ('Tenha um bom dia!')
-    } else if (hour >= 12 && hour < 17){
+    } else if (hour >= 12 && hour <= 18){
         img.src = 'img/tarde.jpg'
         body.style.background = '#1e605a'
         msg2.innerHTML = ('Tenha uma boa tarde!')
