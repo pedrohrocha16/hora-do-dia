@@ -6,7 +6,6 @@ function carregar() {
     var data = new Date()
     var hour = data.getHours()
     var minutes = data.getMinutes()
-    var seconds = data.getSeconds()
     msg.innerHTML = `${hour}:${minutes}Hrs`
 
     if (hour >= 0 && hour < 12){
